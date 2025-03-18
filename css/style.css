@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'UndertaleFont';
+    src: url('/assets/fonts/PixelOperator-Bold.ttf') format('truetype');
+}
+
+body {
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-family: 'UndertaleFont';
+
+}
+header {
+    justify-items: center ;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Estudante {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(61, 159, 250);
+}
+
+.center {
+    text-align: center;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 10%;
+    height: 130px;
+}
+footer a {
+    margin: 20px;
+    margin-top: 50px;
+}
+footer p {
+    color: white;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+nav a:hover {
+    color:rgb(255, 238, 0)
+}
+
+section {
+ background-color: black;
+ border: solid;
+ margin-top: 15px;
+ padding: 10px;
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.github:hover {
+    color: rgb(255, 238, 0);
+}
+
+.youtube:hover {
+    color: rgb(255, 238, 0);
+}
+
+.BlackRosesDubs {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(123, 3, 170);
+}
